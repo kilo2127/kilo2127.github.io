@@ -10,8 +10,7 @@
 将数据列表转化为格式化数据列表（formatted_data），其中每一项都是一个包含国家名称（原始数据中的第一个字段）及其 GDP 值的元组。
 
 按照老师上课使用的“地图（map）”类来创建地图图表，调整各项参数并渲染成html文件存入output目录下，具体操作与展示结果可在作业仓库链接里的github库中查看。
-[作业1网页展示链接]
-[![Description of Image](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A1/output/map.png?raw=true)](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A1/output/map.png?raw=true)
+[作业1网页展示链接](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A1/output/map.png?raw=true)
 
 ## 2. 作业2 国家人均GDP与恩格尔系数组合分析
 首先需要说明的是，人均GDP一直被视为衡量一个国家经济水平，尤其是人均收入的重要指标，因此人均GDP在一定程度上反映各国的贫富情况；而恩格尔指数是国民食品支出占总消费支出的比例，一般认为越先进富足的国家的恩格尔指数会越小。
@@ -19,8 +18,7 @@
 作业2里我们选择十个较为常见的国家作为分析对象，从世界银行和美国农业经济研究局里分别获取各国在2018年的人均GDP以及恩格尔指数。先按人均GDP从大到小排序，并用柱状图的方式呈现；恩格尔系数则用折线图的方式呈现，以此绘制出一份横坐标为国家，左侧纵坐标为人均GDP（柱状图），右侧纵坐标为恩格尔系数（折线图）的组合图表。此作业主要运用pyechart中的Bar与Line模组进行数据展示，最后用Grid将两个图表组合起来。
 
 从最后的展示结果可以发现，人均GDP确实和恩格尔系数呈负相关的关系。具体操作与展示结果可在作业仓库链接里的github库中查看。
-[作业2网页展示链接]
-[![Description of Image](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A2/output/index.png?raw=true)](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A2/output/index.png?raw=true)
+[作业2网页展示链接](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A2/output/index.png?raw=true)
 
 ## 3. 作业3 《倚天屠龙记》前十出现人名词频分析
 作业3首先读取指定路径下的小说《倚天屠龙记》文本文件，使用课上所学的jieba分词工具对txt文本进行初步分词，统计每个词在文本中出现的次数，之后按照观察与经验进行忽略词、添加词与合并词来增加分词精准度，即得到《倚天屠龙记》中前十出现人名的词频列表，程序会将排名前 N（由用户指定，默认为10，实际上也只保证前十的精准度）的词和它们的出现次数输出到屏幕上，并写入到output目录下的CSV 文件中（文件路径为 ./output/倚天屠龙记-人物词频.csv）。
