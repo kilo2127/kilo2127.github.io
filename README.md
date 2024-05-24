@@ -27,7 +27,7 @@
 
 而后再使用matplotlib库中的绘图工具读取output目录下统计到的前十出现人名的词频列表，将词频列表以柱状图形式展示（注意要先引入os库设置中文字体，否则展示图里无法显示中文字符），具体操作与展示结果可在第一次作业仓库链接里的github库中查看。
 [作业3网页展示链接]
-[![Novel Image](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3/output/novel.png?raw=true)](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3/output/novel.png?raw=true)
+[Click here to view the novel image](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3/output/novel.png?raw=true)
 
 # 计算机科学与编程入门课程第二次作业
 ## 2000013071 梁玮诚
