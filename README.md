@@ -26,8 +26,7 @@
 作业3首先读取指定路径下的小说《倚天屠龙记》文本文件，使用课上所学的jieba分词工具对txt文本进行初步分词，统计每个词在文本中出现的次数，之后按照观察与经验进行忽略词、添加词与合并词来增加分词精准度，即得到《倚天屠龙记》中前十出现人名的词频列表，程序会将排名前 N（由用户指定，默认为10，实际上也只保证前十的精准度）的词和它们的出现次数输出到屏幕上，并写入到output目录下的CSV 文件中（文件路径为 ./output/倚天屠龙记-人物词频.csv）。
 
 而后再使用matplotlib库中的绘图工具读取output目录下统计到的前十出现人名的词频列表，将词频列表以柱状图形式展示（注意要先引入os库设置中文字体，否则展示图里无法显示中文字符），具体操作与展示结果可在第一次作业仓库链接里的github库中查看。
-[作业3网页展示链接]
-[Click here to view the novel image](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3/output/novel.png?raw=true)
+[作业3网页展示链接](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3/output/novel.png?raw=true)
 
 # 计算机科学与编程入门课程第二次作业
 ## 2000013071 梁玮诚
