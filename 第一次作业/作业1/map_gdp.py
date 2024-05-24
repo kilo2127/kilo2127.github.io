@@ -8,11 +8,12 @@ from pyecharts.charts import Map
 from pyecharts.globals import ChartType, SymbolType
 
 # 读取数据
-with open('./gdp_data.txt', 'r') as f:
+with open('C:\\Users\\leung\\Documents\\GitHub\\kilo2127.github.io\\第一次作业\\作业1\\gdp_data.txt', 'r') as f:
     data = [line.strip().split('\t') for line in f]
 
 # 处理数据
 formatted_data = [(d[0], float(d[1])) for d in data]
+print(formatted_data)
 
 c = (
     Map()
@@ -29,4 +30,4 @@ c = (
     )
 )
 
-c.render('./output/map_gdp.html')
+c.render('C:\\Users\\leung\\Documents\\GitHub\\kilo2127.github.io\\第一次作业\\作业1\\output/map_gdp.html')
