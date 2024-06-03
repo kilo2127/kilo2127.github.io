@@ -10,7 +10,7 @@
 将数据列表转化为格式化数据列表（formatted_data），其中每一项都是一个包含国家名称（原始数据中的第一个字段）及其 GDP 值的元组。
 
 按照老师上课使用的“地图（map）”类来创建地图图表，调整各项参数并渲染成html文件存入output目录下，具体操作与展示结果可在作业仓库链接里的github库中查看；中国地图同理。
-[作业1世界地图展示链接](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A1/output/map.png?raw=true)
+[作业1世界地图展示链接](https://github.com/kilo2127/kilo2127.github.io/第一次作业/作业1/output/map_gdp.html)
 [作业1中国地图展示链接](https://github.com/kilo2127/kilo2127.github.io/blob/main/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A1/output/china.png?raw=true)
 
 ## 2. 作业2 国家人均GDP与恩格尔系数组合分析
